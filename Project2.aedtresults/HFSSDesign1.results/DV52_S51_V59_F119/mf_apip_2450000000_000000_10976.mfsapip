@@ -1,0 +1,68 @@
+$begin date_time_stamp
+	timesinceepock:1742446843
+$end date_time_stamp
+$begin sysinfo
+	os:win
+	cpuid:'AMD Ryzen 5 5625U with Radeon Graphics         '
+	cpumodel:NA
+	cpubrand:amd
+	cpuPhyCores:6
+	cpuLogCores:12
+	cpufreqkhz:0
+	cpucachelinesize:64
+	cpuestllcmb:64
+	cpuestgflops:408
+	cpuestbwkbps:51.2
+	numnumanodes:1
+	virtualmemkb:1.37439e+11
+	pagesizekb:4096
+$end sysinfo
+$begin matsolver
+	$begin matsolverinfo
+		solvertype:shared_memory
+		solverprecision:double
+		solversymmetry:complex_symm
+		matrixdim:14091
+		matrixbw:20.652
+		matrixnnz:291008
+		rootdim:437
+		mathlib:amd
+		nummpitasks:1
+		numthreadpermpitasks:0
+	$end matsolverinfo
+	$begin matsolveranalysis
+		analysysstatus:valid
+		numsupernodes:1243
+		factornnz:2125148
+		factorestflops:1082570103
+		fbsestflops:7025339
+		rootfactestflops:27820262
+		rootfbsestflops:95484
+		analysistimesec:0.0707307
+		analysismemkb:8468
+	$end matsolveranalysis
+	$begin matsolverfact
+		fatorizationstatus:valid
+		factorizationnumcores:4
+		factorizationtimesec:0.0831273
+		factorizationmentotalkb:57467
+	$end matsolverfact
+	$begin matsolverfbs
+		fbstatus:valid
+		fbstype:fullsolve
+		fbsmt:false
+		fbsmrhs:false
+		fbsnumcores:4
+		fbsnumsolves:1
+		fbsavgsolvetime1solvesec:0.0052055
+		fbscputimesec:0.0052055
+		fbsmemorytotalkb:48848
+	$end matsolverfbs
+	$begin matsolverprofile
+		maxmemkb:57467
+		diskkb:0
+		totalrealtimesec:-1
+		totalcputimesec:-1
+		totaltimesec:-1
+	$end matsolverprofile
+$end matsolver
